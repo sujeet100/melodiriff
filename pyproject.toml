@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "melodiriff"
+version = "0.1.0"
+description = ""
+authors = ["sujitk <sujitk@sahaj.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygame = "^2.5.2"
+bitstring = "^4.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
